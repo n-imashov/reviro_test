@@ -10,30 +10,30 @@
 1. Создайте виртуальную среду (необязательно, но рекомендуется):
 
 
-    python -m venv venv
+   python -m venv venv
 
-2. Активируйте виртуальную среду:
+3. Активируйте виртуальную среду:
 
 
     venv\Scripts\activate
 
-3. Установите зависимости:
+4. Установите зависимости:
 
 
     pip install -r requirements.txt
 
-4. Запустите миграцию:
+5. Запустите миграцию:
     
 
     python manage.py makemigrations
     python manage.py migrate
 
-5. Создайте суперпользователя 
+6. Создайте суперпользователя 
 
 
     python manage.py createsuperuser
 
-6. Запустите сервер разработки Django:
+7. Запустите сервер разработки Django:
 
 
     python manage.py runserver
